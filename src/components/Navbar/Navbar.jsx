@@ -3,7 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import {Link} from "react-router-dom";
 import Navbar0 from "../Header/Navbar0.jsx";
 import './Navbar.scss'
-import SubNav from "./SubNav.jsx";
+// import SubNav from "./SubNav.jsx";
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                         ))}
                     </nav>
                 </div>
-                <SubNav/>
+                {/* <SubNav/> */}
             </header>
         </>
 
